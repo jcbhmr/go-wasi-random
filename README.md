@@ -75,6 +75,12 @@ go get github.com/jcbhmr/go-wasi-random@v0.2.0
 //go:generate go tool jet -g "*.go" "<your-package-root>/internal/wasi/random/" "github.com/jcbhmr/go-wasi-random/" ./internal/
 ```
 
+```json
+{
+    "go.buildTags": "wasip2"
+}
+```
+
 ## Development
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=Go&logoColor=FFFFFF)
