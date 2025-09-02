@@ -1,0 +1,11 @@
+package math:adder;
+
+interface add {
+    add-random: func(a: s32) -> s32;
+}
+
+world adder {
+    include wasi:cli/imports@0.2.0;
+    include wasi:random/imports@0.2.0;
+    export add;
+}

@@ -70,15 +70,9 @@ go get github.com/jcbhmr/go-wasi-io/0.2.0
 ![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=WebAssembly&logoColor=FFFFFF)
 
 ```go
-//go:build generate
-
-//go:generate wkg wit fetch
-//go:generate rm -rf ./internal/
 //go:generate go tool wit-bindgen-go generate --out ./internal/ --versioned ./wit/
 //go:generate rm -rf ./internal/wasi/random/v0.2.0/
 //go:generate go tool jet -g "*.go" "<your-package-root>/internal/wasi/random/v0\\.2\\.0/" "github.com/jcbhmr/go-wasi-random/0.2.0/" ./internal/
-
-package main
 ```
 
 ## Development
