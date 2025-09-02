@@ -3,10 +3,6 @@
 🔢 Centralized bindings to [`wasi:random`](https://github.com/WebAssembly/wasi-random) interfaces
 
 <table align=center>
-<tr>
-<th>Before
-<th>After
-<tr>
 <td>
 
 ```
@@ -17,7 +13,7 @@
     │       └── my-interface/
     │           └── ...
     └── wasi/
-        ├── random/
+        ├── random/ 👈 Replaces this folder
         │   ├── insecure/
         │   │   ├── insecure.s
         │   │   ├── insecure.wasm.go
@@ -31,25 +27,6 @@
         │       ├── random.wasm.go
         │       └── random.wit.go
         └── ...
-```
-
-<td>
-
-```
-.
-└── internal/
-    └── octocat/
-        └── my-app/
-            └── my-interface/
-                └── ...
-```
-
-```go
-import (
-    "github.com/jcbhmr/go-wasi-random/insecure"
-    "github.com/jcbhmr/go-wasi-random/insecure-seed"
-    "github.com/jcbhmr/go-wasi-random/random"
-)
 ```
 
 </table>
