@@ -1,3 +1,3 @@
 # Stop GitHub from saying "Assembly 61%" in the language summary
-_examples/adder/internal linguist-generated
-_examples/hello-world/internal linguist-generated
+/_examples/adder/internal/** linguist-generated
+/_examples/hello-world/internal/** linguist-generated
