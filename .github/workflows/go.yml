@@ -26,8 +26,7 @@ jobs:
         wget https://github.com/tinygo-org/tinygo/releases/download/v0.39.0/tinygo_0.39.0_amd64.deb
         sudo dpkg -i tinygo_0.39.0_amd64.deb
     - uses: cargo-bins/cargo-binstall@main
-    - run: cargo binstall -y wasm-tools
-    - run: cargo install --locked wkg
+    - run: cargo binstall -y wasm-tools wkg
     - uses: jcbhmr/setup-wasmtime@v2
 
     - name: Build
