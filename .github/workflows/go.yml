@@ -28,7 +28,7 @@ jobs:
     - uses: cargo-bins/cargo-binstall@main
     - run: cargo binstall -y wasm-tools
     - run: cargo install --locked wkg
-    - run: curl https://wasmtime.dev/install.sh -sSf | bash
+    - uses: jcbhmr/setup-wasmtime@v2
 
     - name: Build
       run: go build -v ./...
