@@ -1,6 +1,0 @@
-package my-namespace:my-name;
-
-world my-world {
-    include wasi:cli/command@0.2.0;
-    include wasi:random/imports@0.2.0;
-}
