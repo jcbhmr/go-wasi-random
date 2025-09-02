@@ -1,4 +1,4 @@
-module github.com/jcbhmr/go-wasi-random/0.2.0
+module github.com/jcbhmr/go-wasi-random
 
 go 1.24.5
 

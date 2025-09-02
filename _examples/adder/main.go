@@ -5,8 +5,8 @@ package main
 import (
 	"math"
 
-	"github.com/jcbhmr/go-wasi-random/0.2.0/_examples/adder/internal/math/adder/add"
-	"github.com/jcbhmr/go-wasi-random/0.2.0/random"
+	"github.com/jcbhmr/go-wasi-random/_examples/adder/internal/math/adder/add"
+	"github.com/jcbhmr/go-wasi-random/random"
 )
 
 func init() {

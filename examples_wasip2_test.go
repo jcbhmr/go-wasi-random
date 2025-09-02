@@ -5,7 +5,7 @@ package random_test
 import (
 	"fmt"
 
-	"github.com/jcbhmr/go-wasi-random/0.2.0/random"
+	"github.com/jcbhmr/go-wasi-random/random"
 )
 
 func ExampleGetRandomU64() {
