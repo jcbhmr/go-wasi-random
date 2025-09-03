@@ -2,7 +2,7 @@
 
 //go:build wasip2
 
-// Package random represents the imported interface "wasi:random/random@0.2.6".
+// Package random represents the imported interface "wasi:random/random@0.2.7".
 //
 // WASI Random is a random data API.
 //
