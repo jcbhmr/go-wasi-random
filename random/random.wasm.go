@@ -8,12 +8,12 @@ import (
 	"go.bytecodealliance.org/cm"
 )
 
-// This file contains wasmimport and wasmexport declarations for "wasi:random@0.2.5".
+// This file contains wasmimport and wasmexport declarations for "wasi:random@0.2.6".
 
-//go:wasmimport wasi:random/random@0.2.5 get-random-bytes
+//go:wasmimport wasi:random/random@0.2.6 get-random-bytes
 //go:noescape
 func wasmimport_GetRandomBytes(len0 uint64, result *cm.List[uint8])
 
-//go:wasmimport wasi:random/random@0.2.5 get-random-u64
+//go:wasmimport wasi:random/random@0.2.6 get-random-u64
 //go:noescape
 func wasmimport_GetRandomU64() (result0 uint64)
