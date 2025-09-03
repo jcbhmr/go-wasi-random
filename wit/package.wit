@@ -1,5 +1,5 @@
-package jcbhmr:go-wasi-random@0.2.2;
+package jcbhmr:go-wasi-random@0.2.3;
 
 world go-wasi-random {
-    include wasi:random/imports@0.2.2;
+    include wasi:random/imports@0.2.3;
 }
