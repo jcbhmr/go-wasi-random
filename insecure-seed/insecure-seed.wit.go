@@ -2,7 +2,7 @@
 
 //go:build wasip2
 
-// Package insecureseed represents the imported interface "wasi:random/insecure-seed@0.2.4".
+// Package insecureseed represents the imported interface "wasi:random/insecure-seed@0.2.5".
 //
 // The insecure-seed interface for seeding hash-map DoS resistance.
 //
