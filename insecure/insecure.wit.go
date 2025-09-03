@@ -2,7 +2,7 @@
 
 //go:build wasip2
 
-// Package insecure represents the imported interface "wasi:random/insecure@0.2.1".
+// Package insecure represents the imported interface "wasi:random/insecure@0.2.2".
 //
 // The insecure interface for insecure pseudo-random numbers.
 //
