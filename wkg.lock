@@ -7,6 +7,6 @@ name = "wasi:random"
 registry = "wasi.dev"
 
 [[packages.versions]]
-requirement = "=0.2.3"
-version = "0.2.3"
-digest = "sha256:90bff11fae5e2df9196ee89cd00d374792dce8afadf5c4c761a834ed760588e3"
+requirement = "=0.2.4"
+version = "0.2.4"
+digest = "sha256:66ec50c21475f02ea2ae82f6020529bc889f0664a4b8b1ac48961adaa486a594"
